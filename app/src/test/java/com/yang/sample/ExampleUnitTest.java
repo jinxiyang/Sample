@@ -1,4 +1,4 @@
-package com.yangjinxi.sample;
+package com.yang.sample;
 
 import org.junit.Test;
 

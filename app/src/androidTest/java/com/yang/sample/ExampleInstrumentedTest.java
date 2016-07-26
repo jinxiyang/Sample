@@ -1,4 +1,4 @@
-package com.yangjinxi.sample;
+package com.yang.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.yangjinxi.sample", appContext.getPackageName());
+        assertEquals("com.yang.sample", appContext.getPackageName());
     }
 }
