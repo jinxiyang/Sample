@@ -3,14 +3,13 @@ package com.yang.sample.main;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import com.yang.library.base.BaseSwipeBackActivity;
+import com.yang.library.base.BaseActivity;
 import com.yang.sample.R;
 
-public class MainActivity extends BaseSwipeBackActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

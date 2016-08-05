@@ -24,9 +24,11 @@ public class SplashActivity extends BaseActivity{
         @Override
         public void run() {
             LogUtil.i(Thread.currentThread().getName());
-            Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
-            startActivity(intent);
-            finish();
+            "sub".substring(10);
+            int t = 3/0;
+//            Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+//            startActivity(intent);
+//            finish();
         }
     };
 

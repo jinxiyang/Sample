@@ -44,6 +44,10 @@ android {
                 }
 
             }
+            //多渠道，添加友盟统计
+            productFlavors.all{ flavor->
+                manifestPlaceholders.put("UMENG_CHANNEL_VALUE", name)
+            }
         }
     }
 
@@ -67,8 +71,6 @@ dependencies {
     compile rootProject.ext.dependencies["appcompatv7"]
     compile rootProject.ext.dependencies["design"]
     compile rootProject.ext.dependencies["constraint"]
-    compile project(':swipebacklayout_library')
-
     compile 'com.android.support:support-v4:23.4.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
     testCompile 'junit:junit:4.12'

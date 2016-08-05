@@ -1,6 +1,6 @@
 # Add project specific ProGuard rules here.
 # By default, the flags in this file are appended to flags specified
-# in D:\android-sdk-windows/tools/proguard/proguard-android.txt
+# in C:\Users\MJJ\Develop\SDK/tools/proguard/proguard-android.txt
 # You can edit the include path and order by changing the proguardFiles
 # directive in build.gradle.
 #
@@ -15,17 +15,3 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
-
-
-
-#友盟统计
--keepclassmembers class * {
-   public <init> (org.json.JSONObject);
-}
--keep public class com.yang.sample.R$*{
-    public static final int *;
-}
--keepclassmembers enum * {
-    public static **[] values();
-    public static ** valueOf(java.lang.String);
-}

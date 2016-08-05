@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Sample.iml" filepath="$PROJECT_DIR$/Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swipebacklayout_library/swipebacklayout_library.iml" filepath="$PROJECT_DIR$/swipebacklayout_library/swipebacklayout_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipeback_lib/swipeback_lib.iml" filepath="$PROJECT_DIR$/swipeback_lib/swipeback_lib.iml" />
     </modules>
   </component>
 </project>
